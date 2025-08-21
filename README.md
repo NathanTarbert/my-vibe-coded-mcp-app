@@ -1,4 +1,4 @@
-# 🚀 Vibe Code Board with AI
+# 🚀 Vibe Code Board
 
 A powerful, AI-powered Kanban board application built with Next.js, TypeScript, Tailwind CSS, and CopilotKit. Manage your projects with the help of an intelligent AI assistant that can understand your workflow and take actions on your behalf.
 
