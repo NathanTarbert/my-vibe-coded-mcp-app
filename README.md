@@ -9,21 +9,21 @@ A powerful, AI-powered Kanban board application built with Next.js, TypeScript, 
 
 ## ✨ Features
 
-### 🎯 **Core Kanban Board**
+### 🎯 **Kanban Board**
 - **Drag & Drop**: Intuitive task management with visual feedback
 - **Status Columns**: To Do, In Progress, Review, Done
 - **Priority Levels**: Low, Medium, High with color coding
 - **Team Management**: Add, remove, and assign team members
 - **Responsive Design**: Works perfectly on all devices
 
-### 🤖 **AI-Powered Assistant**
+### 🤖 **CopilotKit-Powered Assistant**
 - **Natural Language**: Chat with AI using everyday language
 - **Smart Actions**: AI can create, move, and manage tasks
 - **Context Awareness**: AI understands your current project state
 - **Dynamic Suggestions**: Intelligent recommendations based on your workflow
 - **Real-time Updates**: AI stays in sync with your board changes
 
-### 🚀 **Modern Tech Stack**
+### 🚀 **Tech Stack**
 - **Next.js 15**: Latest React framework with App Router
 - **TypeScript**: Type-safe development experience
 - **Tailwind CSS**: Utility-first CSS framework
@@ -32,29 +32,15 @@ A powerful, AI-powered Kanban board application built with Next.js, TypeScript, 
 
 ## 🎮 Quick Start
 
-### Option 1: Automated Setup (Recommended)
-
-**macOS/Linux:**
-```bash
-./QUICKSTART.sh
-```
-
-**Windows:**
-```cmd
-QUICKSTART.bat
-```
-
-### Option 2: Manual Setup
-
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd my-vibes
+   git clone https://github.com/NathanTarbert/my-vibe-coded-mcp-app
+   cd my-vibe-coded-mcp-app
    ```
 
 2. **Install dependencies**
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Get your CopilotKit API key**
@@ -70,19 +56,15 @@ QUICKSTART.bat
 
 5. **Start development server**
    ```bash
-   npm run dev
+   pnpm run dev
    ```
 
 6. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🎯 How to Use
-
-### Opening the AI Assistant
-- Press `Ctrl+/` (Windows/Linux) or `Cmd+/` (Mac)
-- The AI sidebar will slide in from the right
-- Start chatting with natural language
-
+7. **Add the MCP Server to Your App**
+   Choose an AI Powered code editor and follow the instructions: https://docs.copilotkit.ai/mcp
+   
 ### Example AI Commands
 ```
 "Add a new high-priority task for database optimization"
@@ -92,47 +74,8 @@ QUICKSTART.bat
 "Reassign the API documentation task to Sarah"
 ```
 
-### Managing Your Board
-- **Drag & Drop**: Move tasks between columns
-- **Click to Edit**: Modify task details inline
-- **Team Management**: Add/remove team members
-- **Priority Setting**: Set task importance levels
 
-## 📚 Documentation
-
-- **[Developer Walkthrough](DEVELOPER_WALKTHROUGH.md)** - Comprehensive setup and development guide
-- **[CopilotKit Features](COPILOTKIT_FEATURES.md)** - Detailed explanation of AI features
-- **[API Reference](https://docs.copilotkit.ai/)** - Official CopilotKit documentation
-
-## 🏗️ Project Structure
-
-```
-my-vibes/
-├── src/
-│   ├── app/
-│   │   ├── api/           # API routes
-│   │   ├── globals.css    # Global styles
-│   │   ├── layout.tsx     # Root layout with CopilotKit
-│   │   └── page.tsx       # Main application
-│   └── components/        # Reusable components
-├── public/                # Static assets
-├── QUICKSTART.sh          # macOS/Linux setup script
-├── QUICKSTART.bat         # Windows setup script
-├── DEVELOPER_WALKTHROUGH.md # Comprehensive guide
-├── COPILOTKIT_FEATURES.md # AI features documentation
-└── README.md              # This file
-```
-
-## 🔧 Available Scripts
-
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run start    # Start production server
-npm run lint     # Run ESLint
-```
-
-## 🌟 AI Features Deep Dive
+## 🌟 CopilotKit Features
 
 ### Copilot Actions
 - **Task Management**: Create, move, assign, and prioritize tasks
@@ -149,56 +92,8 @@ npm run lint     # Run ESLint
 - **Context-Aware**: Considers task distribution and team workload
 - **Real-time Updates**: Suggestions evolve as your project changes
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### Other Platforms
-- **Netlify**: Upload build folder
-- **Docker**: Use provided Dockerfile
-- **Custom Server**: Run `npm run build` and serve the output
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-- **Documentation**: Check the guides above
-- **Issues**: Create an issue in the repository
-- **Community**: Join [CopilotKit Discord](https://discord.gg/copilotkit)
-- **Email**: Contact the maintainers
-
-## 🙏 Acknowledgments
-
-- [CopilotKit](https://copilotkit.ai/) for the amazing AI integration framework
-- [Next.js](https://nextjs.org/) for the powerful React framework
-- [Tailwind CSS](https://tailwindcss.com/) for the beautiful utility-first CSS
-- [Vercel](https://vercel.com/) for the excellent deployment platform
-
----
-
-**Made with ❤️ and AI** - Transform your project management with the power of artificial intelligence!
-
-## 🎉 What's Next?
-
-- [ ] **File Attachments**: Upload and manage files with AI
-- [ ] **Advanced Analytics**: Charts, reports, and insights
-- [ ] **Team Collaboration**: Real-time updates and notifications
-- [ ] **Workflow Automation**: Custom rules and triggers
-- [ ] **Mobile App**: React Native version
-- [ ] **API Integrations**: Connect with GitHub, Slack, and more
 
 **Star this repository** if you find it helpful! ⭐
